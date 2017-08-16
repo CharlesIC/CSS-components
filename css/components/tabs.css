@@ -1,34 +1,48 @@
-.tabs {
+.tab-panel {
 	background-color: #962424;
-	color: white;
 	display: flex;
 	justify-content: space-around;
 	padding: 10px 10px 0 10px;
 }
 
-.tabs h3 {
+.tab-panel a {
+	color: white;
+}
+
+.tab-panel a:hover {
+	cursor: pointer;
+	text-decoration: none;
+	opacity: 0.9;
+}
+
+.tab-panel h3 {
 	font-size: 17px;
+	font-weight: bold;
+	margin-top: 0;
 }
 
-.tabs p {
-	opacity: 0.5;
+.tab-panel p {
+	font-size: 15px;
+	opacity: 0.65;
+	margin-bottom: 0;
 }
 
-.tabs-item {
+.tab {
 	background-color: #FF5454;
 	flex: 1 0 auto;
 	text-align: center;
+	padding: 20px 0;
 }
 
-.tabs-item:first-child {
+.tab:first-child {
 	border-radius: 4px 0 0 0 ;
 }
 
-.tabs-item:last-child {
+.tab:last-child {
 	border-radius: 0 4px 0 0 ;
 }
 
-.tabs-item.active {
+.tab.active {
 	background-color: white;
 	color: #962424
 }
