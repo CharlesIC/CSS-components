@@ -1,13 +1,22 @@
 .card {
-	position: relative;
 	height: 250px;
+	position: relative;
 	background: linear-gradient(135deg,
 		rgba(0,0,0,0.8) 0%, 
 		rgba(0,0,0,0.3) 50%),
-	url('https://unsplash.it/300/250?image=0');
-	background-size: cover;
+	url('https://unsplash.it/300/250?image=3');
+	background-size: cover !important;
 	color: white;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 	margin-bottom: 15px;
+}
+
+.card.big {
+	height: 175px;
+	background: linear-gradient(135deg,
+		rgba(0,0,0,0.8) 0%, 
+		rgba(0,0,0,0.3) 50%),
+	url('https://unsplash.it/900/200?image=201');
 }
 
 .card-user {
@@ -26,4 +35,19 @@
 	position: absolute;
 	bottom:  10px;
 	left: 10px;
+}
+
+.card-link {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	z-index: 2;
+	background: black;
+	opacity: 0;
+}
+
+.card-link:hover {
+	opacity: 0.1;
 }

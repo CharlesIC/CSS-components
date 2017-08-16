@@ -11,163 +11,313 @@
   </head>
   <body>
 
+  <div class="navbar-ckg">
+        <!-- Logo -->
+        <a class="navbar-ckg-logo" href="#">
+          <img src="https://unsplash.it/50/35/?image=56" alt="logo">
+        </a>
+
+        <!-- Right navigation -->
+        <div class="navbar-ckg-right hidden-xs hidden-sm">
+          <a href="#" class="navbar-ckg-item navbar-ckg-link">Host</a>
+          <a href="#" class="navbar-ckg-item navbar-ckg-link">Trips</a>
+          <a href="#" class="navbar-ckg-item navbar-ckg-link">Messages</a>
+
+          <!-- Avatar with dropdown menu -->
+          <div class="navbar-ckg-item">
+            <div class="dropdown">
+              <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar dropdown-toggle" id="navbar-avatar-menu" data-toggle="dropdown">
+              <ul class="dropdown-menu dropdown-menu-right navbar-ckg-dropdown-menu">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dropdown appearing on mobile only -->
+        <div class="navbar-ckg-item hidden-md hidden-lg">
+          <div class="dropdown">
+            <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+            <ul class="dropdown-menu dropdown-menu-right navbar-ckg-dropdown-menu">
+              <li><a href="#">Host</a></li>
+              <li><a href="#">Trips</a></li>
+              <li><a href="#">Messagese</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
   <div class="container">
-    <h1 class="text-center">UI components sprint</h1>
+    <h1 class="text-center">Simple CSS components</h1>
 
-      <h2>Avatar design</h2>
-      <img src="https://placehold.it/50x50" alt="" class="avatar" >
-      <img src="https://placehold.it/50x50" alt="" class="avatar-small" >
+    <h2>Avatars</h2>
+    <img src="https://placehold.it/50x50" alt="" class="avatar" >
+    <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar" >
+    <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar bordered" >
+    <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar square" >
+    <img src="https://unsplash.it/50/?image=837&gravity=east" alt="" class="avatar small" >
+    <img src="https://unsplash.it/50/?image=837&gravity=east" alt="" class="avatar small bordered" >
+    <img src="https://unsplash.it/50/?image=837&gravity=east" alt="" class="avatar small square" >
 
-      <h2>Button design</h2>
-      <a href="#" class="btn-twitter">Start now</a>
-      <a href="#" class="btn-medium">Write a story</a>
-      <a href="#" class="btn-treehouse">Sign up</a>
+    <h2>Buttons</h2>
+    <a href="#" class="btn-twitter">Start now</a>
+    <a href="#" class="btn-medium">Write a story</a>
+    <a href="#" class="btn-treehouse">Sign up</a>
 
-      <h2>Dropdown design</h2>
-      <div class="dropdown">
-        <img src="https://placehold.it/50x50" alt="" class="avatar dropdown-toggle" id="avatar-dropdown-menu" data-toggle="dropdown">
-        <ul class="dropdown-menu" aria-labelledby="avatar-dropdown-menu">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
-      </div>
-
-      <h2>Card design</h2>
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-            <div class="card">
-            <img src="https://placehold.it/50x50" alt="" class="avatar card-user">
-            <span class="card-category">POPULAR</span>
-            <div class="card-description">
-              <h3>Stripe</h3>
-              <p>A cool payment API</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <div class="card">
-            <img src="https://placehold.it/50x50" alt="" class="avatar card-user">
-            <span class="card-category">POPULAR</span>
-            <div class="card-description">
-              <h3>Stripe</h3>
-              <p>A cool payment API</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <div class="card">
-            <img src="https://placehold.it/50x50" alt="" class="avatar card-user">
-            <span class="card-category">POPULAR</span>
-            <div class="card-description">
-              <h3>Stripe</h3>
-              <p>A cool payment API</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <h2>Badge design</h2>
-      <img src="https://placehold.it/50x50" alt="" class="avatar">
-      <span class="badge notification">4</span>
-
-      <h2>Banner design</h2>
-      <div class="banner">
-        <div class="banner-content">
-          <h1>Stripe</h1>
-          <p>A cool payment API</p>
-          <a href="#" class="btn-treehouse">Start now</a>
-        </div>
-      </div>
-
-      <h2>Tabs design</h2>
-      <div class="tabs">
-          <div class="tabs-item active">
-            <h3>452</h3>
-            <p>upvotes</p>
-          </div>
-          <div class="tabs-item">
-            <h3>452</h3>
-            <p>upvotes</p>
-          </div>
-          <div class="tabs-item">
-            <h3>452</h3>
-            <p>upvotes</p>
-          </div>
-          <div class="tabs-item">
-            <h3>452</h3>
-            <p>upvotes</p>
-          </div>
-      </div>
-
-      <h2>List design</h2>
-      <ul class="list-unstyled">
-        <li class="product">
-
-          <div class="product-upvote text-center">
-            <i class="fa fa-caret-up"></i>
-            <p>75</p>
-          </div>
-
-          <img src="https://unsplash.it/150/100?image=0" alt="" class="img-rounded">
-          
-          <div class="product-description">
-            <h3>Intercom</h3>
-            <p>The best CRM tool</p>  
-          </div>
-          
-          <ul class="list-inline product-controls">
-            <li><i class="fa fa-heart"></i></li>
-            <li><i class="fa fa-share"></i></li>
-            <li><i class="fa fa-twitter"></i></li>
-            <li><i class="fa fa-github"></i></li>
-          </ul>
-        </li>
-        <li class="product">
-
-          <div class="product-upvote text-center">
-            <i class="fa fa-caret-up"></i>
-            <p>75</p>
-          </div>
-
-          <img src="https://unsplash.it/150/100?image=0" alt="" class="img-rounded">
-          
-          <div class="product-description">
-            <h3>Intercom</h3>
-            <p>The best CRM tool</p>  
-          </div>
-          
-          <ul class="list-inline product-controls">
-            <li><i class="fa fa-heart"></i></li>
-            <li><i class="fa fa-share"></i></li>
-            <li><i class="fa fa-twitter"></i></li>
-            <li><i class="fa fa-github"></i></li>
-          </ul>
-        </li>
-        <li class="product">
-
-          <div class="product-upvote text-center">
-            <i class="fa fa-caret-up"></i>
-            <p>75</p>
-          </div>
-
-          <img src="https://unsplash.it/150/100?image=0" alt="" class="img-rounded">
-          
-          <div class="product-description">
-            <h3>Intercom</h3>
-            <p>The best CRM tool</p>  
-          </div>
-          
-          <ul class="list-inline product-controls">
-            <li><i class="fa fa-heart"></i></li>
-            <li><i class="fa fa-share"></i></li>
-            <li><i class="fa fa-twitter"></i></li>
-            <li><i class="fa fa-github"></i></li>
-          </ul>
-        </li>
+    <h2>Dropdowns</h2>
+    <div class="dropdown">
+      <img src="https://unsplash.it/50/?image=837&gravity=east" alt="" class="avatar dropdown-toggle" id="avatar-dropdown-menu" data-toggle="dropdown">
+      <ul class="dropdown-menu" aria-labelledby="avatar-dropdown-menu">
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Logout</a></li>
       </ul>
-
     </div>
+
+    <h2>Cards</h2>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="card">
+          <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar bordered card-user">
+          <a class="card-link" href="#"></a>
+          <span class="card-category">POPULAR</span>
+          <div class="card-description">
+             <h3>Stripe</h3>
+            <p>A cool payment API</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card">
+          <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar bordered card-user">
+          <a class="card-link" href="#"></a>
+          <span class="card-category">POPULAR</span>
+          <div class="card-description">
+            <h3>Stripe</h3>
+            <p>A cool payment API</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card">
+          <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar bordered card-user">
+          <a class="card-link" href="#"></a>
+          <span class="card-category">POPULAR</span>
+          <div class="card-description">
+            <h3>Stripe</h3>
+            <p>A cool payment API</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card big">
+      <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar bordered card-user">
+      <a class="card-link" href="#"></a>
+      <span class="card-category">POPULAR</span>
+      <div class="card-description">
+        <h3>Stripe</h3>
+        <p>A cool payment API</p>
+      </div>
+    </div>
+
+    <h2>Badges</h2>
+    <img src="https://placehold.it/50x50" alt="" class="avatar">
+    <span class="badge notification">4</span>
+
+    <h2>Navbars</h2>
+    <div class="navbar-ckg">
+      <!-- Logo -->
+      <a class="navbar-ckg-logo" href="#">
+        <img src="https://unsplash.it/50/35/?image=56" alt="logo">
+      </a>
+
+      <!-- Right navigation -->
+      <div class="navbar-ckg-right hidden-xs hidden-sm">
+        <a href="#" class="navbar-ckg-item navbar-ckg-link">Host</a>
+        <a href="#" class="navbar-ckg-item navbar-ckg-link">Trips</a>
+        <a href="#" class="navbar-ckg-item navbar-ckg-link">Messages</a>
+
+        <!-- Avatar with dropdown menu -->
+        <div class="navbar-ckg-item">
+          <div class="dropdown">
+            <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar dropdown-toggle" id="navbar-avatar-menu" data-toggle="dropdown">
+            <ul class="dropdown-menu dropdown-menu-right navbar-ckg-dropdown-menu">
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dropdown appearing on mobile only -->
+      <div class="navbar-ckg-item hidden-md hidden-lg">
+        <div class="dropdown">
+          <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+          <ul class="dropdown-menu dropdown-menu-right navbar-ckg-dropdown-menu">
+            <li><a href="#">Host</a></li>
+            <li><a href="#">Trips</a></li>
+            <li><a href="#">Messagese</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h2>Messages</h2>
+    <div class="message">
+      <img src="https://unsplash.it/50/?image=837&gravity=east" alt="" class="avatar bordered" >
+      <div class="message-name">
+        <h3>Jason Macy</h3>
+        <p>15/08/2017</p>
+      </div>
+      <div class="message-body">
+        <p><strong>I am not sure yet!</strong></p>
+        <p>
+          I am not sure yet! I might be in Brazil at that time... Can I confirm with you later?
+        </p>
+      </div>
+      <div class="message-status">
+        <p class="status pending">Pending</p>
+        <p class="price">£345</p>
+      </div>
+    </div>
+
+    <div class="message">
+      <img src="https://unsplash.it/50/?image=1027" alt="" class="avatar bordered" >
+      <div class="message-name">
+        <h3>Claudia Simms</h3>
+        <p>16/08/2017</p>
+      </div>
+      <div class="message-body">
+        <p><strong>I'll be glad to welcome you in my cozy flat</strong></p>
+        <p>
+          I’ll be glad to welcome you in my cosy flat in Lille. When are you arriving exactly?
+        </p>
+      </div>
+      <div class="message-status">
+        <p class="status accepted">Accepted</p>
+        <p class="price">£345</p>
+      </div>
+    </div>
+
+    <div class="message">
+      <img src="https://unsplash.it/50/?image=996" alt="" class="avatar bordered" >
+      <div class="message-name">
+        <h3>Alejandra Diaz</h3>
+        <p>16/08/2017</p>
+      </div>
+      <div class="message-body">
+        <p><strong>I won't be around next week.</strong></p>
+        <p>
+          I won't be around next week. Good luck with your search!
+        </p>
+      </div>
+      <div class="message-status">
+        <p class="status declined">Declined</p>
+        <p class="price">£345</p>
+      </div>
+    </div>
+
+    <h2>Banners</h2>
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Stripe</h1>
+        <p>A cool payment API</p>
+        <a href="#" class="btn-treehouse">Start now</a>
+      </div>
+    </div>
+
+    <h2>Tabs</h2>
+    <div class="tabs">
+        <div class="tabs-item active">
+          <h3>452</h3>
+          <p>upvotes</p>
+        </div>
+        <div class="tabs-item">
+          <h3>452</h3>
+          <p>upvotes</p>
+        </div>
+        <div class="tabs-item">
+          <h3>452</h3>
+          <p>upvotes</p>
+        </div>
+        <div class="tabs-item">
+          <h3>452</h3>
+          <p>upvotes</p>
+        </div>
+    </div>
+
+    <h2>Lists</h2>
+    <ul class="list-unstyled">
+      <li class="product">
+
+        <div class="product-upvote text-center">
+          <i class="fa fa-caret-up"></i>
+          <p>75</p>
+        </div>
+
+        <img src="https://unsplash.it/150/100?image=0" alt="" class="img-rounded">
+        
+        <div class="product-description">
+          <h3>Intercom</h3>
+          <p>The best CRM tool</p>  
+        </div>
+        
+        <ul class="list-inline product-controls">
+          <li><i class="fa fa-heart"></i></li>
+          <li><i class="fa fa-share"></i></li>
+          <li><i class="fa fa-twitter"></i></li>
+          <li><i class="fa fa-github"></i></li>
+        </ul>
+      </li>
+      <li class="product">
+
+        <div class="product-upvote text-center">
+          <i class="fa fa-caret-up"></i>
+          <p>75</p>
+        </div>
+
+        <img src="https://unsplash.it/150/100?image=0" alt="" class="img-rounded">
+        
+        <div class="product-description">
+          <h3>Intercom</h3>
+          <p>The best CRM tool</p>  
+        </div>
+        
+        <ul class="list-inline product-controls">
+          <li><i class="fa fa-heart"></i></li>
+          <li><i class="fa fa-share"></i></li>
+          <li><i class="fa fa-twitter"></i></li>
+          <li><i class="fa fa-github"></i></li>
+        </ul>
+      </li>
+      <li class="product">
+
+        <div class="product-upvote text-center">
+          <i class="fa fa-caret-up"></i>
+          <p>75</p>
+        </div>
+
+        <img src="https://unsplash.it/150/100?image=0" alt="" class="img-rounded">
+        
+        <div class="product-description">
+          <h3>Intercom</h3>
+          <p>The best CRM tool</p>  
+        </div>
+        
+        <ul class="list-inline product-controls">
+          <li><i class="fa fa-heart"></i></li>
+          <li><i class="fa fa-share"></i></li>
+          <li><i class="fa fa-twitter"></i></li>
+          <li><i class="fa fa-github"></i></li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
