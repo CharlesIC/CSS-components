@@ -32,6 +32,7 @@
 .message-body {
 	flex-grow: 1;
 	padding-left: 10px;
+	padding-right: 10px;
 	font-size: 13px;
 	color: rgba(0, 0, 0, 0.7);
 }
