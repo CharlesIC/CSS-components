@@ -9,9 +9,11 @@
 	margin-top: 100px;
 }
 
+
 .footer .fa-heart {
 	color: #D23333;
 }
+
 
 .footer-links {
 	display: flex;
@@ -29,6 +31,8 @@
 .footer-links a:hover {
 	opacity: 1;
 }
+
+
 
 .footer-copyright a {
 	color: black;

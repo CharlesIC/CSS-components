@@ -27,6 +27,7 @@
 	margin-bottom: 0;
 }
 
+
 .tab {
 	background-color: #FF5454;
 	flex: 1 0 auto;
@@ -41,6 +42,7 @@
 .tab:last-child {
 	border-radius: 0 4px 0 0 ;
 }
+
 
 .tab.active {
 	background-color: white;
